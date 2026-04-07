@@ -1,0 +1,16 @@
+{
+  "name": "cmlabs-backend-crawler-freelance-test",
+  "version": "1.0.0",
+  "description": "Web crawler supporting SPA, SSR, and PWA websites using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "crawl": "node index.js crawl",
+    "serve": "node index.js serve",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.42.0"
+  }
+}
